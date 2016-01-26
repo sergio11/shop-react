@@ -4,7 +4,8 @@
 
 // Polyfill
 import "babel-polyfill";
-
+import injectTapEventPlugin from 'react-tap-event-plugin';
+ 
 // Libraries
 import React from "react";
 import ReactDOM from "react-dom";
@@ -21,7 +22,11 @@ import "./common/base.css";
 // ID of the DOM element to mount app on
 const DOM_APP_EL_ID = "app";
 
-
+//Needed for onTouchTap 
+//Can go away when react 1.0 release 
+//Check this repo: 
+//https://github.com/zilverline/react-tap-event-plugin 
+injectTapEventPlugin();
 
 // Render the router
 ReactDOM.render((

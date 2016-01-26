@@ -1,0 +1,29 @@
+{
+  "name": "react-catalog",
+  "version": "0.0.0",
+  "description": "catalog",
+  "main": "dist/react-catalog.min.js",
+  "homepage": "https://github.com/Sergio11/react-catalog",
+  "authors": [
+    "Sergio Sánchez"
+  ],
+  "moduleType": [
+    "amd",
+    "globals",
+    "node"
+  ],
+  "keywords": [
+    "react",
+    "react-component"
+  ],
+  "license": "MIT",
+  "ignore": [
+    ".editorconfig",
+    ".gitignore",
+    "package.json",
+    "src",
+    "node_modules",
+    "example",
+    "test"
+  ]
+}
