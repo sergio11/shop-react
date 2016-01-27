@@ -1,0 +1,36 @@
+{
+  "chefs": [
+    {
+      "id": 1,
+      "name": "Selene",
+      "lastname": "Pinillos Franco",
+      "description": "Programadora iOS y Android. Me encanta la cocina y los gatos :D"
+    }
+  ],
+  "meals": [
+    {
+      "id": 1,
+      "title": "CHEESECAKE",
+      "description": "Cheesecake de philadelphia y fresas naturales con base de galleta.",
+      "precio": 2.5,
+      "chef": 1,
+      "img": "https://s3-eu-west-1.amazonaws.com/cheflyapp/dishes/548e005e22255bc1589532d8_IMG_0047"
+    },
+    {
+      "id": 2,
+      "title": "MUFFIN DE CACAO",
+      "description": "Muffin de cacao con yogur griego.",
+      "precio": 1,
+      "chef": 1,
+      "img": "https://s3-eu-west-1.amazonaws.com/cheflyapp/dishes/548e005e22255bc1589532d8_04_13_2015_Muffindecacao"
+    },
+    {
+      "id": 3,
+      "title": "PIZZA CASERA DE FARINATO Y CHORIZO",
+      "description": "Pizza con masa casera, tomate, oregano, farinato y chorizo",
+      "precio": 10,
+      "chef": 1,
+      "img": "https://s3-eu-west-1.amazonaws.com/cheflyapp/dishes/548e005e22255bc1589532d8_06_05_2015_Pizzacaseradefarinatoychorizo"
+    }
+  ]
+}

@@ -52,10 +52,12 @@
     "webpack-dev-server": "^1.14.1"
   },
   "dependencies": {
+    "@schibstedspain/rosetta": "^3.5.1",
     "babel-core": "^6.4.5",
     "babel-polyfill": "^6.3.14",
     "babel-runtime": "^6.3.19",
     "express": "^4.12.3",
+    "extend": "^3.0.0",
     "flux": "^2.1.1",
     "history": "^1.17.0",
     "material-ui": "^0.14.2",
@@ -64,6 +66,7 @@
     "react-dom": "^0.14.6",
     "react-router": "^1.0.3",
     "react-tap-event-plugin": "^0.2.1",
-    "rosetta": "^0.3.0"
+    "rosetta": "^0.3.0",
+    "superagent": "^1.7.1"
   }
 }

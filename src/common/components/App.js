@@ -11,6 +11,7 @@ export default class App extends React.Component {
     	this.i18n = this.getChildContext().i18n;
   	}
 
+ 
   	render() {
 	    return (
 	      <div id="container">

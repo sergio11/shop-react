@@ -1,5 +1,6 @@
-export const CHANGE = 'CHANGE';
-
-export const CART = {
-  ITEM_ADD: 'ITEM_ADD'
-};
+export const LOAD_MEALS = 'LOAD:MEALS';
+export const LOAD_MEALS_SUCCESS = 'LOAD:MEALS:SUCCESS';
+export default {
+	LOAD_MEALS,
+	LOAD_MEALS_SUCCESS
+}

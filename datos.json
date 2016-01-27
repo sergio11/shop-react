@@ -1,0 +1,27 @@
+chefs:[
+	{
+		'id': 1,
+		'name': 'Selene',
+		'lastname': 'Pinillos Franco',
+		'description': 'Programadora iOS y Android. Me encanta la cocina y los gatos :D'
+	}
+]
+
+
+meals:[
+	{
+		'id':1,
+		'title':'CHEESECAKE',
+		'description': 'Cheesecake de philadelphia y fresas naturales con base de galleta.',
+		'precio': 2.50,
+		'chef': 1
+	},
+	{
+		'id': 2,
+		'title': 'MUFFIN DE CACAO',
+		'description': 'Muffin de cacao con yogur griego.',
+		'precio': 1.00,
+		'chef': 1
+	}
+
+]

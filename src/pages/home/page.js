@@ -1,14 +1,20 @@
 import React from "react";
 import styles from "./style.css";
-
+import Catalog from '../../common/components/Catalog';
+import ActionsCreator from '../../actions_creator';
 
 export default class HomePage extends React.Component {
-  render() {
-    return (
-      <div className={styles.content}>
-        <h1>Home Page</h1>
-        <p className={styles.welcomeText}>Thanks for joining!</p>
-      </div>
-    );
-  }
+
+	componentDidMount(){
+		ActionsCreator.loadMeals();
+	}
+
+	render() {
+	    return (
+	      <div className={styles.content}>
+	        <h1>Home Page</h1>
+	        <Catalog />
+	      </div>
+	    );
+	}
 }
